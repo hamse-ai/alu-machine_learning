@@ -56,3 +56,4 @@ def BIC(X, kmin=1, kmax=None, iterations=1000, tol=1e-5, verbose=False):
             best_result = (pi, m, S)
 
     return best_k, best_result, log_likelihoods, bics
+
